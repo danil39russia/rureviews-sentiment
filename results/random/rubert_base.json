@@ -1,0 +1,75 @@
+{
+  "model": "rubert_base",
+  "val": {
+    "accuracy": 0.7781481481481481,
+    "precision_macro": 0.7869356541735565,
+    "recall_macro": 0.7781481481481481,
+    "f1_macro": 0.7810018125765668,
+    "f1_negative": 0.7491968793024323,
+    "f1_neutral": 0.6966854283927455,
+    "f1_positive": 0.8971231300345225,
+    "confusion_matrix": [
+      [
+        3265,
+        1200,
+        35
+      ],
+      [
+        901,
+        3342,
+        257
+      ],
+      [
+        50,
+        552,
+        3898
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.78,
+    "precision_macro": 0.7889552045036387,
+    "recall_macro": 0.7799999999999999,
+    "f1_macro": 0.7828091204975071,
+    "f1_negative": 0.7500288118013139,
+    "f1_neutral": 0.6991683991683991,
+    "f1_positive": 0.8992301505228082,
+    "confusion_matrix": [
+      [
+        3254,
+        1212,
+        34
+      ],
+      [
+        881,
+        3363,
+        256
+      ],
+      [
+        42,
+        545,
+        3913
+      ]
+    ]
+  },
+  "hparams": {
+    "model_name": "DeepPavlov/rubert-base-cased",
+    "run_name": "rubert_base",
+    "revision": null,
+    "split": "random",
+    "data_dir": "data/splits",
+    "out_dir": "results",
+    "ckpt_dir": "checkpoints",
+    "text_prefix": "",
+    "max_length": 256,
+    "epochs": 3,
+    "lr": 3e-05,
+    "batch_size": 32,
+    "grad_accum": 1,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "label_smoothing": 0.0,
+    "seed": 42,
+    "keep_checkpoint": false
+  }
+}

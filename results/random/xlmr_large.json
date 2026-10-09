@@ -1,0 +1,77 @@
+{
+  "model": "xlmr_large",
+  "val": {
+    "accuracy": 0.794,
+    "precision_macro": 0.8004584003389681,
+    "recall_macro": 0.794,
+    "f1_macro": 0.7958677181157766,
+    "f1_negative": 0.7636279285548596,
+    "f1_neutral": 0.7143905251021906,
+    "f1_positive": 0.9095847006902795,
+    "confusion_matrix": [
+      [
+        3292,
+        1178,
+        30
+      ],
+      [
+        804,
+        3408,
+        288
+      ],
+      [
+        26,
+        455,
+        4019
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.7925185185185185,
+    "precision_macro": 0.7993006650866136,
+    "recall_macro": 0.7925185185185185,
+    "f1_macro": 0.7944185804624261,
+    "f1_negative": 0.7593818984547461,
+    "f1_neutral": 0.7150919732441472,
+    "f1_positive": 0.9087818696883853,
+    "confusion_matrix": [
+      [
+        3268,
+        1193,
+        39
+      ],
+      [
+        803,
+        3421,
+        276
+      ],
+      [
+        36,
+        454,
+        4010
+      ]
+    ]
+  },
+  "hparams": {
+    "model_name": "FacebookAI/xlm-roberta-large",
+    "run_name": "xlmr_large",
+    "revision": null,
+    "split": "random",
+    "data_dir": "data/splits",
+    "out_dir": "results",
+    "ckpt_dir": "checkpoints",
+    "text_prefix": "",
+    "max_length": 256,
+    "epochs": 3,
+    "lr": 1e-05,
+    "batch_size": 8,
+    "grad_accum": 4,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "label_smoothing": 0.0,
+    "seed": 42,
+    "optim": "adamw_bnb_8bit",
+    "grad_checkpointing": false,
+    "keep_checkpoint": false
+  }
+}

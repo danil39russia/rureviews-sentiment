@@ -1,0 +1,96 @@
+{
+  "full": {
+    "rows": 90000,
+    "label_counts": {
+      "negative": 30000,
+      "neutral": 30000,
+      "positive": 30000
+    },
+    "chars_mean": 130.06931111111112,
+    "chars_median": 91.0,
+    "words_mean": 20.011144444444444,
+    "words_total": 1801003
+  },
+  "exact_duplicate_rows": 2679,
+  "normalized_duplicate_rows": 5068,
+  "texts_with_conflicting_labels": 388,
+  "norm_texts_with_conflicting_labels": 395,
+  "random": {
+    "train": {
+      "rows": 63000,
+      "label_counts": {
+        "negative": 21000,
+        "neutral": 21000,
+        "positive": 21000
+      },
+      "chars_mean": 129.58201587301588,
+      "chars_median": 91.0,
+      "words_mean": 19.94593650793651,
+      "words_total": 1256594
+    },
+    "val": {
+      "rows": 13500,
+      "label_counts": {
+        "negative": 4500,
+        "neutral": 4500,
+        "positive": 4500
+      },
+      "chars_mean": 131.52911111111112,
+      "chars_median": 92.0,
+      "words_mean": 20.249925925925925,
+      "words_total": 273374
+    },
+    "test": {
+      "rows": 13500,
+      "label_counts": {
+        "negative": 4500,
+        "neutral": 4500,
+        "positive": 4500
+      },
+      "chars_mean": 130.88355555555555,
+      "chars_median": 93.0,
+      "words_mean": 20.076666666666668,
+      "words_total": 271035
+    },
+    "test_rows_seen_in_train": 830
+  },
+  "dedup": {
+    "train": {
+      "rows": 62435,
+      "label_counts": {
+        "negative": 20816,
+        "neutral": 20842,
+        "positive": 20777
+      },
+      "chars_mean": 131.0764314887483,
+      "chars_median": 93.0,
+      "words_mean": 20.154800993032755,
+      "words_total": 1258365
+    },
+    "val": {
+      "rows": 13977,
+      "label_counts": {
+        "negative": 4616,
+        "neutral": 4706,
+        "positive": 4655
+      },
+      "chars_mean": 126.96859125706519,
+      "chars_median": 88.0,
+      "words_mean": 19.56750375617085,
+      "words_total": 273495
+    },
+    "test": {
+      "rows": 13588,
+      "label_counts": {
+        "negative": 4568,
+        "neutral": 4452,
+        "positive": 4568
+      },
+      "chars_mean": 128.6312187224021,
+      "chars_median": 91.0,
+      "words_mean": 19.80740359140418,
+      "words_total": 269143
+    },
+    "test_rows_seen_in_train": 0
+  }
+}

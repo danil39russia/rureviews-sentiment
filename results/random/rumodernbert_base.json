@@ -1,0 +1,75 @@
+{
+  "model": "rumodernbert_base",
+  "val": {
+    "accuracy": 0.7837037037037037,
+    "precision_macro": 0.7941405431768809,
+    "recall_macro": 0.7837037037037037,
+    "f1_macro": 0.7866686800990613,
+    "f1_negative": 0.7530260707635009,
+    "f1_neutral": 0.7059670781893004,
+    "f1_positive": 0.901012891344383,
+    "confusion_matrix": [
+      [
+        3235,
+        1238,
+        27
+      ],
+      [
+        822,
+        3431,
+        247
+      ],
+      [
+        35,
+        551,
+        3914
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.7826666666666666,
+    "precision_macro": 0.7940771128101541,
+    "recall_macro": 0.7826666666666666,
+    "f1_macro": 0.7857348225768216,
+    "f1_negative": 0.7467540063165282,
+    "f1_neutral": 0.7067484662576687,
+    "f1_positive": 0.903701995156268,
+    "confusion_matrix": [
+      [
+        3192,
+        1280,
+        28
+      ],
+      [
+        819,
+        3456,
+        225
+      ],
+      [
+        38,
+        544,
+        3918
+      ]
+    ]
+  },
+  "hparams": {
+    "model_name": "deepvk/RuModernBERT-base",
+    "run_name": "rumodernbert_base",
+    "revision": "patched-tokenizer",
+    "split": "random",
+    "data_dir": "data/splits",
+    "out_dir": "results",
+    "ckpt_dir": "checkpoints",
+    "text_prefix": "",
+    "max_length": 256,
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch_size": 32,
+    "grad_accum": 1,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "label_smoothing": 0.0,
+    "seed": 42,
+    "keep_checkpoint": false
+  }
+}

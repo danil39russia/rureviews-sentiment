@@ -1,0 +1,13 @@
+checkpoints/
+__pycache__/
+*.pyc
+data/raw/
+logs/
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.toc
+.ipynb_checkpoints/
+data/splits/*/*.csv

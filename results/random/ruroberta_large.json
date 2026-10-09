@@ -1,0 +1,77 @@
+{
+  "model": "ruroberta_large",
+  "val": {
+    "accuracy": 0.7868148148148149,
+    "precision_macro": 0.7892952798577091,
+    "recall_macro": 0.7868148148148149,
+    "f1_macro": 0.787925183837908,
+    "f1_negative": 0.7653718091009989,
+    "f1_neutral": 0.6925771841471425,
+    "f1_positive": 0.9058265582655827,
+    "confusion_matrix": [
+      [
+        3448,
+        1020,
+        32
+      ],
+      [
+        1024,
+        3163,
+        313
+      ],
+      [
+        38,
+        451,
+        4011
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.7899259259259259,
+    "precision_macro": 0.7928234687337564,
+    "recall_macro": 0.7899259259259259,
+    "f1_macro": 0.7911945588314797,
+    "f1_negative": 0.7662886368690238,
+    "f1_neutral": 0.6991710296684118,
+    "f1_positive": 0.9081240099570038,
+    "confusion_matrix": [
+      [
+        3446,
+        1018,
+        36
+      ],
+      [
+        1006,
+        3205,
+        289
+      ],
+      [
+        42,
+        445,
+        4013
+      ]
+    ]
+  },
+  "hparams": {
+    "model_name": "ai-forever/ruRoBERTa-large",
+    "run_name": "ruroberta_large",
+    "revision": null,
+    "split": "random",
+    "data_dir": "data/splits",
+    "out_dir": "results",
+    "ckpt_dir": "checkpoints",
+    "text_prefix": "",
+    "max_length": 256,
+    "epochs": 1.0,
+    "lr": 2e-05,
+    "batch_size": 8,
+    "grad_accum": 4,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "label_smoothing": 0.0,
+    "seed": 42,
+    "optim": "adamw_bnb_8bit",
+    "grad_checkpointing": false,
+    "keep_checkpoint": false
+  }
+}

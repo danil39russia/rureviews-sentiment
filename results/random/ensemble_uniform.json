@@ -1,0 +1,69 @@
+{
+  "model": "ensemble_uniform",
+  "val": {
+    "accuracy": 0.7948148148148149,
+    "precision_macro": 0.8015808710389823,
+    "recall_macro": 0.7948148148148149,
+    "f1_macro": 0.7969816642270122,
+    "f1_negative": 0.7649695437306057,
+    "f1_neutral": 0.7151858853182105,
+    "f1_positive": 0.9107895636322205,
+    "confusion_matrix": [
+      [
+        3328,
+        1148,
+        24
+      ],
+      [
+        839,
+        3405,
+        256
+      ],
+      [
+        34,
+        469,
+        3997
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.7968148148148149,
+    "precision_macro": 0.8036330339314,
+    "recall_macro": 0.7968148148148148,
+    "f1_macro": 0.7989396212668494,
+    "f1_negative": 0.7660064486411792,
+    "f1_neutral": 0.7186156266386995,
+    "f1_positive": 0.9121967885206697,
+    "confusion_matrix": [
+      [
+        3326,
+        1149,
+        25
+      ],
+      [
+        823,
+        3426,
+        251
+      ],
+      [
+        35,
+        460,
+        4005
+      ]
+    ]
+  },
+  "members": [
+    "ruroberta_large",
+    "xlmr_large",
+    "rumodernbert_base",
+    "rubert_base",
+    "tfidf_logreg"
+  ],
+  "weights": {
+    "ruroberta_large": 0.2,
+    "xlmr_large": 0.2,
+    "rumodernbert_base": 0.2,
+    "rubert_base": 0.2,
+    "tfidf_logreg": 0.2
+  }
+}
